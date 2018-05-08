@@ -36,7 +36,7 @@ public class ApplicationDescriptor {
 
 		Unmarshaller unmarshaller = context.createUnmarshaller();
 		ApplicationDescriptor descriptor = (ApplicationDescriptor) unmarshaller.unmarshal(new File(
-		        "../opwViewer/template-application.xml"));
+		        "template-application.xml"));
 		descriptor.version.buildDate = new Date();
 
 		Marshaller marshaller = context.createMarshaller();

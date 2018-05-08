@@ -19,8 +19,6 @@ package com.github.meinders.common.parser;
 
 /**
  * The superclass for exception thrown by a parser.
- * <p>
- * This class is part of the opwviewer.experimental project.
  *
  * @since 2005
  * @author Gerrit Meinders
