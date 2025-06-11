@@ -20,13 +20,13 @@ package com.github.meinders.common;
 import java.io.*;
 import java.text.*;
 import java.util.*;
-import javax.xml.bind.*;
-import javax.xml.bind.annotation.*;
 import javax.xml.parsers.*;
 import javax.xml.transform.*;
 import javax.xml.transform.dom.*;
 import javax.xml.transform.stream.*;
 
+import jakarta.xml.bind.*;
+import jakarta.xml.bind.annotation.*;
 import org.w3c.dom.*;
 
 @XmlRootElement

@@ -20,7 +20,8 @@ package com.github.meinders.common;
 import java.io.*;
 import java.net.*;
 import java.util.concurrent.atomic.*;
-import javax.xml.bind.*;
+
+import jakarta.xml.bind.*;
 
 public class Application {
 	private static AtomicReference<Application> instance = new AtomicReference<Application>();
@@ -53,7 +54,7 @@ public class Application {
 	}
 
 	private void readApplicationDescriptor() throws JAXBException {
-		JAXBContext context = JAXBContext.newInstance(ApplicationDescriptor.class);
+		JAXBContext context = JAXBContext.newInstance( ApplicationDescriptor.class);
 		Unmarshaller unmarshaller = context.createUnmarshaller();
 		ClassLoader classLoader = Application.class.getClassLoader();
 		URL source = classLoader.getResource("META-INF/application.xml");

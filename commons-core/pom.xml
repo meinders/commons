@@ -19,4 +19,12 @@
             <url>http://www.gnu.org/licenses/gpl.txt</url>
         </license>
     </licenses>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>4.0.2</version>
+        </dependency>
+    </dependencies>
 </project>
